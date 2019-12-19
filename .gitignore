@@ -1,0 +1,10 @@
+# ignore catkin tools
+catkin_ws/devel/
+# ignore build folder
+catkin_ws/build/
+# ignore devel
+catkin_ws/logs/
+# ignore IDE
+*.idea
+# Ignore python cahche files
+*.pyc
