@@ -22,8 +22,8 @@ A adruino nano flashed with the Gripper.ino
  
 ## Ground control station
 To get the ground control station to work do the following:
-* Move the Ground_control folder into a catkin_ws with MAVlink-LoRa under src->mavlink_lora->scripts
-* Move the launch files from the launch folder into catkin_ws -> src->mavlink_lora->launch
+* Move the Ground_control folder into a catkin_ws with MAVlink-LoRa under catkin_ws/src/mavlink_lora/scripts
+* Move the launch files from the launch folder into catkin_ws/src/mavlink_lora/launch
 
 ## Simulation
 To make the simulation work make sure to have all the dependencies in the correct version then:
@@ -32,3 +32,8 @@ To make the simulation work make sure to have all the dependencies in the correc
 * run the launch file mavlink_lora_sim.launch
 
 ## Raspberry pi
+After the guide on installing raspbian Buster do the following:
+* Move the launch files from the launch folder into catkin_ws/src/mavlink_lora/launch
+* Move the bridge folder into catkin_ws/src/mavlink_lora/scripts
+
+To launch start the mavlink_lora launch file bridge.launch
