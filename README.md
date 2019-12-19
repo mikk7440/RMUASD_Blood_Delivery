@@ -1,4 +1,4 @@
-# RMUASD_Blood_Delivery
+# RMUASD Blood Delivery
 This is an autonomous multirotor project. It includes a custom made ground control station developed with a TKinter GUI.  The project is dependent on the PX4 firmware, Gazebo, ROS and a non-public version of the MAVlink-Lora libary.
 
 ## Dependencies
@@ -26,7 +26,9 @@ To get the ground control station to work do the following:
 * Move the launch files from the launch folder into catkin_ws -> src->mavlink_lora->launch
 
 ## Simulation
-To make the simulation
-* Move the HITL_ and SITL_simulation.sh bash scripts inro catkin_ws. 
+To make the simulation work make sure to have all the dependencies in the correct version then:
+* Move the HITL_ and SITL_simulation.sh bash scripts into catkin_ws/
+* run ./HITL_ or SITL_simulation.sh
+* run the launch file mavlink_lora_sim.launch
 
 ## Raspberry pi
