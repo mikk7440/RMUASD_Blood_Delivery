@@ -16,7 +16,7 @@ The dependencies for the ground control station, which is only tested in ubuntu 
   * shapely
   * pykml
 
-A raspberry pi 4 is needed with raspbian Buster, ros jubetuc and MAVlink-LoRa, a guide on this can be found [here](Rasbian Buster).
+A raspberry pi 4 is needed with raspbian Buster, ros jubetuc and MAVlink-LoRa, a guide on this can be found [here](https://junmo1215.github.io/tutorial/2019/07/14/tutorial-install-ROS-and-mavros-in-raspberry-pi.html).
 
 A adruino nano flashed with the Gripper.ino
  
