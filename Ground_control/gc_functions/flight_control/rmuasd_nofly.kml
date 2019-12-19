@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>No-fly zones</name>
+<description></description>
+<Style id="red">
+  <LineStyle>
+    <color>ff0000ff</color>
+    <width>1.5</width>
+  </LineStyle>
+</Style>
+<Style id="green">
+  <LineStyle>
+    <color>ff00ff00</color>
+    <width>1.5</width>
+  </LineStyle>
+</Style>
+<Style id="blue">
+  <LineStyle>
+    <color>ffff0000</color>
+    <width>1.5</width>
+  </LineStyle>
+</Style>
+<Style id="cyan">
+  <LineStyle>
+    <color>ffffff00</color>
+    <width>1.5</width>
+  </LineStyle>
+</Style>
+<Style id="yellow">
+  <LineStyle>
+    <color>ff00ffff</color>
+    <width>1.5</width>
+  </LineStyle>
+</Style>
+<Style id="grey">
+  <LineStyle>
+    <color>ff888888</color>
+    <width>1.5</width>
+  </LineStyle>
+</Style>
+<Style id="orange">
+  <LineStyle>
+    <color>ff00a5ff</color>
+    <width>1.5</width>
+  </LineStyle>
+</Style>
+<Style id="purple">
+  <LineStyle>
+    <color>ffal20f0</color>
+    <width>1.5</width>
+  </LineStyle>
+</Style>
+<Style id="green_poly">
+  <LineStyle>
+    <color>ff00aa00</color>
+    <width>1.5</width>
+  </LineStyle>
+  <PolyStyle>
+    <color>2000cc00</color>
+  </PolyStyle>
+</Style>
+<Style id="yellow_poly">
+  <LineStyle>
+    <color>ff0000ff</color>
+    <width>1.5</width>
+  </LineStyle>
+  <PolyStyle>
+    <color>2000ffff</color>
+  </PolyStyle>
+</Style>
+<Style id="red_poly">
+  <LineStyle>
+    <color>ff0000ff</color>
+    <width>1.5</width>
+  </LineStyle>
+  <PolyStyle>
+    <color>520000ff</color>
+  </PolyStyle>
+</Style>
+<Style id="orange_poly">
+  <LineStyle>
+    <color>ff00a5ff</color>
+    <width>1.5</width>
+  </LineStyle>
+  <PolyStyle>
+    <color>1200a5ff</color>
+  </PolyStyle>
+</Style>
+<Style id="purple_poly">
+  <LineStyle>
+    <color>ffa020f0</color>
+    <width>1.5</width>
+  </LineStyle>
+  <PolyStyle>
+    <color>10a020f0</color>
+  </PolyStyle>
+</Style>
+<Placemark>
+<name>No-fly zone</name>
+<description>1574674681</description>
+<styleUrl>#red_poly</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+010.32351815,55.47176829,0.0
+010.32349846,55.47181344,0.0
+010.32344168,55.47184694,0.0
+010.32336301,55.47185983,0.0
+010.32328353,55.47184865,0.0
+010.32322455,55.47181640,0.0
+010.32320185,55.47177171,0.0
+010.32322154,55.47172656,0.0
+010.32327832,55.47169306,0.0
+010.32335699,55.47168017,0.0
+010.32343647,55.47169135,0.0
+010.32349545,55.47172360,0.0
+010.32351815,55.47176829,0.0
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+<Placemark>
+<name>No-fly zone</name>
+<description>1574674681</description>
+<styleUrl>#red_poly</styleUrl>
+<Polygon>
+<tessellate>1</tessellate>
+<outerBoundaryIs>
+<LinearRing>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+010.32453907,55.47178914,0.0
+010.32453696,55.47180034,0.0
+010.32453002,55.47181089,0.0
+010.32451867,55.47182012,0.0
+010.32450364,55.47182747,0.0
+010.32448587,55.47183245,0.0
+010.32446647,55.47183477,0.0
+010.32444666,55.47183428,0.0
+010.32442770,55.47183101,0.0
+010.32441076,55.47182515,0.0
+010.32439691,55.47181709,0.0
+010.32438703,55.47180733,0.0
+010.32438174,55.47179648,0.0
+010.32438136,55.47178522,0.0
+010.32438593,55.47177426,0.0
+010.32439514,55.47176429,0.0
+010.32440844,55.47175594,0.0
+010.32442497,55.47174972,0.0
+010.32444370,55.47174604,0.0
+010.32446346,55.47174512,0.0
+010.32448300,55.47174702,0.0
+010.32450110,55.47175162,0.0
+010.32451661,55.47175863,0.0
+010.32452857,55.47176761,0.0
+010.32453621,55.47177800,0.0
+010.32453907,55.47178914,0.0
+</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,32 @@
+<!-- launch file -->
+
+<launch>
+	<!-- node pkg="rosbag" name="rosbag_record" type="record" args="-a"/ -->
+
+    <arg name="serial_device_fc" default="/dev/ttyS0"/>
+	<arg name="serial_baudrate_fc" default="57600" />
+
+    <arg name="serial_device_gc" default="/dev/ttyUSB0"/>
+    <arg name="serial_baudrate_gc" default="57600" />
+
+	<!-- Used to mock heartbeats. If set to true, mavlink outputs heartbeats by itself -->
+	<arg name="heartbeats" default="true" />
+
+
+	<node ns="fc" pkg="mavlink_lora" type="mavlink_lora_node" name="flight_control" respawn="true" output="screen" >
+		<param name="serial_device" value="$(arg serial_device_fc)"/>
+		<param name="serial_baudrate" value="$(arg serial_baudrate_fc)" />
+		<param name="heartbeats" value="$(arg heartbeats)" />
+	</node>
+
+    <node ns="gc" pkg="mavlink_lora" type="mavlink_lora_node" name="ground_control" respawn="true" output="screen" >
+		<param name="serial_device" value="$(arg serial_device_gc)"/>
+		<param name="serial_baudrate" value="$(arg serial_baudrate_gc)" />
+		<param name="heartbeats" value="$(arg heartbeats)" />
+    </node>
+
+    <node pkg="mavlink_lora" type="Forward_msg.py" name="Forward_msg" output="screen">
+    </node>
+
+</launch>
+
